@@ -1,2 +1,10 @@
 @charset "UTF-8";
 
+body{
+    background-image: linear-gradient(black, gray);
+}
+
+main{
+    background-color: aliceblue;
+    max-width: 500px;
+}
