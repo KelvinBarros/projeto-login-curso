@@ -1,10 +1,29 @@
 @charset "UTF-8";
 
 body{
-    background-image: linear-gradient(black, gray);
+    background-image: linear-gradient(rgb(47, 47, 47),black);
+    width: 96vw;
+    height: 96vh;
 }
 
 main{
     background-color: aliceblue;
-    max-width: 500px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+div#imagem{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#img{
+    width: 400px;
+    border-radius: 19px 19px 0px 0px;
+}
+
+#formulario{
+    padding: 10px;
 }
