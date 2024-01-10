@@ -7,17 +7,26 @@
     box-sizing: border-box;
 }
 
-body{
+body,html{
     background-image: linear-gradient(rgb(47, 47, 47),black);
-    width: 96vw;
-    height: 96vh;
+    width: 100vw;
+    height: 100vh;
 }
 
 main{
+    position: relative;
     background-color: aliceblue;
     max-width: 350px;
     margin: auto;
     border-radius: 20px;
+    width: 100vw;
+    height: 500px;
+}
+
+#login{
+    position: absolute;
+    
+    
 }
 
 div#imagem{
@@ -33,4 +42,5 @@ div#imagem{
 
 #formulario{
     padding: 10px;
+    
 }
