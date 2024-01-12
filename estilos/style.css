@@ -36,6 +36,10 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.274);
+
+    transition: width .5s, height .5s; /*transição suave de largura*/
+    transition-timing-function: ease;/*diferença na velocidade da transiçao*/
+    
 }
 
 section#login>div#imagem {
