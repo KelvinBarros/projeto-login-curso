@@ -7,7 +7,8 @@
     box-sizing: border-box;
 }
 
-body,html {
+body,
+html {
     background-image: linear-gradient(rgb(47, 47, 47), rgb(26, 25, 25));
     width: 100vw;
     height: 100vh;
@@ -37,15 +38,15 @@ section#login {
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.274);
 }
 
-div#imagem {
+section#login>div#imagem {
     display: block;
     background: white url(../imagens/pexels-alex-conchillos-3648850.png) fixed no-repeat;
     background-size: cover;
     height: 250px;
 }
 
-div#formulario{
+section#login>div#formulario {
     display: block;
     padding: 10px;
-    
+
 }
