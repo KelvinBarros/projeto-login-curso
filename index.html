@@ -23,22 +23,22 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a). Faça login para acessar sua conta.</p>
                 <form action="login.js" method="post">
-                    <p>
+                    <p class="info">
                         <span class="material-symbols-outlined">person</span>
 
 
-                        <label for="lusuario">Usuário</label>
+                        <label for="lusuario">Usuário:</label>
                         <input type="text" name="senha" id="lusuario" required>
                     </p>
-                    <p>
+                    <p class="info">
                         <span class="material-symbols-outlined">lock</span>
-                        <label for="lsenha">Senha</label>
+                        <label for="lsenha">Senha:</label>
                         <input type="password" name="senha" id="lsenha" required minlength="8">
                     </p>
 
                     <p>
-                        <input type="submit" value="Entrar"><br>
-                        <input type="button" value="Esqueci minha senha">
+                        <input class="botao1" type="submit" value="Entrar"><br>
+                        <input class="botao2" type="button" value="Esqueci minha senha">
                     </p>
                 </form>
             </div>
