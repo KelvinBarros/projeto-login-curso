@@ -12,7 +12,7 @@
     }
 
     section#login > div#imagem{
-        float: right;
+        float: right; /*imagem flutuando a direita*/
         width: 30%;
         height: 100%;
         background: white url(../imagens/pexels-alex-conchillos-3648850.png) center center no-repeat;
@@ -20,7 +20,7 @@
     }
 
     section#login > div#formulario{
-        float: left;
+        float: left;/*formulario flutuando a esquerda*/
         width: 70%;
     }
 }
@@ -48,5 +48,10 @@
         width: 50%;
         height: 100%;
     }
+
+    #formulario p{
+        font-size:1em;
+    }
+
 }
 
