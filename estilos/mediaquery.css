@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 
-@media screen and (min-width: 768px) and (max-width:992px) {
+@media screen and (min-width: 768px) and (max-width:992px) { /*PARA TABLET*/
 
     body{
         background-image: linear-gradient( #45515C, #21251f);
@@ -9,6 +9,7 @@
 
     section#login {
         width: 80vw;
+        height: 300px;
     }
 
     section#login > div#imagem{
@@ -25,7 +26,7 @@
     }
 }
 
-@media screen and (min-width: 992px)  {
+@media screen and (min-width: 992px)  {/*TELAS GRANDES*/
     
     body{
         background-image: linear-gradient( #45515C, #21251f);
@@ -33,6 +34,7 @@
 
     section#login{
         width: 900px;
+        height: 350px;
     }
 
     section#login > div#imagem{
@@ -50,7 +52,7 @@
     }
 
     #formulario p{
-        font-size:1em;
+        font-size:0.8em;
     }
 
 }

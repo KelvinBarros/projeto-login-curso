@@ -28,8 +28,7 @@ section#login {
     /*posição absolute para posicionar onde quiser*/
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    /*ajuda a centralizar a imagem*/
+   
     overflow: hidden;
     /*corta tudo que esta fora da borda, ideal para imagens ou div que não arredonda*/
 
@@ -38,7 +37,9 @@ section#login {
     height: 550px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.274);
-
+    
+    transform: translate(-50%, -50%);
+        /*ajuda a centralizar a imagem*/
     transition: width .5s, height .5s;
     /*transição de largura*/
     transition-timing-function: ease;
@@ -65,38 +66,35 @@ section#login>div#formulario {
 }
 
 .info {
-    color: rgba(0, 0, 0, 0.767);
+    color: rgba(0, 0, 0, 0.733);
     border: solid rgba(0, 0, 0, 0.274) 1px;
     border-radius: 5px;
-    background-color: #f0f0f000;
-    padding: 5px 0px 5px 0px;
-    margin: 5px;
+    background-color: #45515c6c;
+    height: 44px;
+    margin: 5px 0px;
 }
 
-#lusuario {
+.info > span{
+    
+    font-size: 2em;
+    padding: 5px;
+    
+}
+
+.info  > input{
     background-color: white;
     border: none;
     outline: none;
     /*TIRAR BORDA QUANDO INPUT ESTA EM FOCO (FOCUS)*/
-    border-radius: 10px;
-    width: 200px;
-    height: 30px;
-    text-align: left;
+    border-radius: 5px;
+    width:calc(100% - 48px) ; /*calc para calcular tamanhos e ajustar com css*/
+    height: 40px;
     font-size: 1em;
-
-
+    transform: translateY(-9px);
 
 }
 
-#lsenha {
-    background-color: white;
-    border: none;
-    outline: none;
-    border-radius: 10px;
-    width: 200px;
-    height: 30px;
-    font-size: 1em;
-}
+
 
 
 
@@ -136,15 +134,15 @@ section#login>div#formulario {
     width: 100%;
     height: 25px;
     text-decoration: none;
-    border: solid rgba(0, 0, 0, 0.119) 1px;
+    border: solid rgba(0, 0, 0, 0.027) 1px;
     border-radius: 5px;
     margin-top: 10px;
-    padding-top: px;
+   
 }
 
 .botao2:hover{
     background-color: #422efb83;
-    border: solid rgba(0, 0, 0, 0.39) 1px;
+    border: solid rgba(0, 0, 0, 0.24) 1px;
 }
 
 .botao2:active{
@@ -153,6 +151,7 @@ section#login>div#formulario {
 }
 
 .botao2 i{
-    font-size: 0.8em;
+    font-size: 0.9em;
     
 }
+
